@@ -1,5 +1,4 @@
 // if
-
 let color;
 if(mode === "dark-mode"){
     color = "black"
@@ -16,7 +15,6 @@ if (age < 18){
 
 
 // if-else
-
 let colour;
 if(mode === "dark-model"){
     color = 'black';
@@ -26,7 +24,6 @@ else{
 }
 
 // odd or even number
-
 let num = 20;
 
 if(num % 2 === 0){
@@ -37,12 +34,11 @@ else{
 }
 
 //else-if
-
-let age =43;
-if (age <18){
+let age1 =43;
+if (age1 <18){
     console.log("Junior")
 }
-else if(agwe > 60){
+else if(age1 > 60){
     console.log("senior")
 }
 else{
@@ -50,26 +46,24 @@ else{
 }
 
 
-// ternary operators
-
-age >18? "true":"false";
-
 // example
 let namee = prompt("hello");
 console.log(namee)
 
-// user input
-let num = prompt("enter a number:");
 
-if (num % 5 === 0){
-    console.log(num, "is a multiple of 5");
+
+// user input
+let num1 = prompt("enter a number:");
+
+if (num1 % 5 === 0){
+    console.log(num1, "is a multiple of 5");
 }
 else{
-    console.log(num, "is not a multiple of 5")
+    console.log(num1, "is not a multiple of 5")
 }
 
-// code whoch give grades to students according to their scores;
 
+// code which give grades to students according to their scores;
 let score;
 if(score >= 80 && score <= 100){
     console.log("A")

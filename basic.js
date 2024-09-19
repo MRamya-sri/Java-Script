@@ -7,7 +7,7 @@ color = 'yellow'
 console.log(age)
 console.log(color)
 
-// null and undefines
+// null and undefined
 x = null;
 y = undefined;
 console.log(x)
@@ -20,16 +20,13 @@ console.log(isfollow)
 console.log(isunfollow)
 
 //var, const, var
-
 let a;
 a = 4;
 console.log(a)
-
 const b=78;
 console.log(b)
 
 // example
-
 const student ={
     fullname:"Ramya sri",
     age:21,
